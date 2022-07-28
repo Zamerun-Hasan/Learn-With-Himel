@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/48959381cb.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/icons/icon.png" type="image/x-icon">
+    <title>Learn With || Himel</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- main css -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <!-- NavBar Start-->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container">
+                <a class="navbar-brand text-secondary fw-bolder mx-2" href="#">Learn With Himel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse mx-1" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Deals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Success</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Register</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex ms-0 ms-lg-5" role="search">
+                        <button class="btn btn-lg btn-outline-primary" type="submit">Login</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- NavBar End-->
+
+        <!-- Slider -->
+        <div class="slider container p-2">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active slider_img">
+                        <img src="./images//cover/cover-1.png" class="d-block img-fluid opacity-75" alt="...">
+                        <div class="carousel-caption d-block">
+                            <h5 class="text-dark fw-bolder fs-1">Started Digital Learning</h5>
+                            <p class="text-dark fw-bold">Every child has the right to learn.Help us tackle the learning
+                                crisis.</p>
+                            <button type="button" class="btn btn-primary m-3">Get Started</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item slider_img">
+                        <img src="./images/cover/cover-2.jpg" class="d-block img-fluid opacity-75" alt="...">
+                        <div class="carousel-caption d-block">
+                            <h5 class="text-dark fw-bolder fs-1">Started Digital Learning</h5>
+                            <p class="text-dark fw-bold">Every child has the right to learn.Help us tackle the learning
+                                crisis.</p>
+                            <button type="button" class="btn btn-primary m-3">Get Started</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item slider_img">
+                        <img src="./images/cover/cover-3.jpg" class="d-block img-fluid opacity-75" alt="...">
+                        <div class="carousel-caption d-block">
+                            <h5 class="text-dark fw-bolder fs-1">Started Digital Learning</h5>
+                            <p class="text-dark fw-bold">Every child has the right to learn.Help us tackle the learning
+                                crisis.</p>
+                            <button type="button" class="btn btn-primary m-3">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- Slider End -->
+    </header>
+    <!-- Header End -->
+
+    <!-- Popular Courses -->
+    <section class="container my-4">
+        <h1 class="text-primary text-center fw-bold fs-2 my-3">Discover Our Popular Courses</h1>
+        <p class="text-dark text-center">Every child has the right to learn.Help us tackle the learning crisis.
+        </p>
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 col-12 ">
+                <div class="card mb-3">
+                    <div class="row g-0  align-items-center">
+                        <div class="col-md-4">
+                            <img src="./images/course/course-1.png" class="img-fluid rounded-start p-1 rounded-4 w-100"
+                                alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Fundamental Of Ui Ux Design</h5>
+                                <p class="card-text">The UI/UX Design Specialization brings a design-centric approach to
+                                    user interface and user experience design.</p>
+                                <p class="card-text text-primary">price: $100</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-12">
+                <div class="card mb-3">
+                    <div class="row g-0  align-items-center">
+                        <div class="col-md-4">
+                            <img src="./images/course/course-2.png" class="img-fluid rounded-start p-1 rounded-4 w-100"
+                                alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Javascript Basic to Advanced</h5>
+                                <p class="card-text">JavaScript is the world's most popular programming language.
+                                    JavaScript is the programming language of the Web.</p>
+                                <p class="card-text text-primary">price: $100</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <div class="card mb-3">
+                    <div class="row g-0  align-items-center">
+                        <div class="col-md-4">
+                            <img src="./images/course/course-3.png" class="img-fluid rounded-start p-1 rounded-4 w-100"
+                                alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Full Stack Web Development</h5>
+                                <p class="card-text">A Full Stack Developer is someone who works with the Back End — or
+                                    server side — of application.</p>
+                                <p class="card-text text-primary">price: $100</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <div class="card mb-3">
+                    <div class="row g-0  align-items-center">
+                        <div class="col-md-4">
+                            <img src="./images/course/course-4.png" class="img-fluid rounded-start p-1 rounded-4 w-100"
+                                alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Digital Marketing</h5>
+                                <p class="card-text">Digital marketing, also called online marketing, refers to all
+                                    marketing that occur on the internet.</p>
+                                <p class="card-text text-primary">price: $100</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <div class="card mb-3">
+                    <div class="row g-0  align-items-center">
+                        <div class="col-md-4">
+                            <img src="./images/course/course-5.png" class="img-fluid rounded-start p-1 rounded-4 w-100"
+                                alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Photography Basic Rules</h5>
+                                <p class="card-text">Photography is the art, application, and practice of creating
+                                    durable images.</p>
+                                <p class="card-text text-primary">price: $100</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <div class="card mb-3">
+                    <div class="row g-0  align-items-center">
+                        <div class="col-md-4">
+                            <img src="./images/course/course-6.png" class="img-fluid rounded-start p-1 rounded-4 w-100"
+                                alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Motion Graphics</h5>
+                                <p class="card-text">Motion graphics (sometimes mograph) are pieces of animation or
+                                    digital footage.</p>
+                                <p class="card-text text-primary">price: $100</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-primary btn-lg d-block m-auto">See More Courses</button>
+    </section>
+    <!-- Popular Courses End-->
+
+    <!-- Explore The Elearning -->
+    <section class="container">
+        <div class="card my-3">
+            <div class="row g-1 justify-content-center align-items-center">
+                <div class="col-md-4">
+                    <img src="./images/working.png" class="img-fluid rounded-start d-block m-auto p-3" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bolder">Explore The Elearning Institute</h5>
+                        <p class="card-text">The mission of course is to provide students with knowledge of marketing
+                            management applied to marketing oriented problems and opportunities with the goal of
+                            supplying relevant information.</p>
+                        <div class="d-flex align-items-center">
+                            <div class="p-3">
+                                <h3 class="fw-bold">3.2K+</h3>
+                                <p>Online Courses</p>
+                            </div>
+                            <div class="p-3">
+                                <h3 class="fw-bold">600+</h3>
+                                <p>Expert Members</p>
+                            </div>
+                            <div class="p-3">
+                                <h3 class="fw-bold">1.5K+</h3>
+                                <p>Rating & Review</p>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Explore The Elearning End -->
+
+    <!-- Ready To Join -->
+    <section class="container-fluid bg-primary">
+        <div class="container py-5 d-block m-auto">
+            <div class="row align-items-center ">
+                <div class="col-12 col-lg-8">
+                    <h1 class="fw-bold text-light text-center">Ready To Join?</h1>
+                    <p class="text-light my-1 text-center px-3">"Being open to sharing your life with someone means that
+                        things are not always going to go your way," she said.
+                        You can listen as well as express yourself.</p>
+                </div>
+                <div class="col-12 col-lg-4 mt-4 mt-lg-0">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-light d-block m-auto" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Register Now
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Are You Sure Want To Register?</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    If you want to register please click on Register Now.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-success">Register Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Ready To Join End-->
+
+    <!-- SuccessFull Students -->
+    <section class="container">
+        <h1 class="text-primary text-center fw-bold fs-2 my-3">Meet Our Successfull Students</h1>
+        <p class="text-dark text-center mb-3">Successful students take advantage of extra credit opportunities when
+            offered.</p>
+        <div class="row mt-3">
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card m-1">
+                    <img src="./images/student/student-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-text txt-dark fw-bold text-center">Bayezid Mia</h3>
+                        <p class="card-text text-center">UIUX Designer</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card  m-1">
+                    <img src="./images/student/student-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-text txt-dark fw-bold text-center">Nishat Nir</h3>
+                        <p class="card-text text-center">WEB Designer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card m-1">
+                    <img src="./images/student/student-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-text txt-dark fw-bold text-center">Zamerun Hasan</h3>
+                        <p class="card-text text-center">WEB Designer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card m-1">
+                    <img src="./images/student/student-4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-text txt-dark fw-bold text-center">Sayma Rahman</h3>
+                        <p class="card-text text-center">WEB Developer</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- SuccessFull Students End -->
+
+    <!-- Students Feedback -->
+    <section class="container my-5">
+        <h1 class="text-primary text-center fw-bold fs-2 my-3">Some Studets Feedback</h1>
+        <p class="text-dark text-center mb-3">Feedback is any response regarding a student's performance.</p>
+        <div class="">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner bg-light p-5 rounded-5">
+                    <div class="carousel-item align-items-center active">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="d-flex justify-content-end me-5 my-3">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <figure class="text-start">
+                                    <blockquote class="blockquote">
+                                        <p class="">Feedback from our students. Professional CSS Template. Responsive,
+                                            fully customizable with easy Drag-n-Drop editor. You can use it for subjects
+                                            like.</p>
+                                    </blockquote>
+                                    <figcaption class="blockquote-footer">
+                                        Zamerun Hasan <cite title="Source Title">Source Title</cite>
+                                    </figcaption>
+                                    <div class="d-flex align-items-center justify-content-start">
+                                        <img src="./images/student/student-5.png" class="img-fluid mx-2" alt="">
+                                        <h4 class="text-muted">Hamid Khan</h4>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="col-md-6 d-none d-md-block">
+                                <div class="d-flex justify-content-end me-5 my-3">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <figure class="text-start">
+                                    <blockquote class="blockquote">
+                                        <p>Feedback from our students. Professional CSS Template. Responsive, fully
+                                            customizable with easy Drag-n-Drop editor. You can use it for subjects like.
+                                        </p>
+                                    </blockquote>
+                                    <figcaption class="blockquote-footer">
+                                        Himel <cite title="Source Title">Source Title</cite>
+                                    </figcaption>
+                                    <div class="d-flex align-items-center justify-content-start">
+                                        <img src="./images/student/student-6.png" class="img-fluid mx-2" alt="">
+                                        <h4 class="text-muted">Benjir Jahan</h4>
+                                    </div>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item align-items-center">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="d-flex justify-content-end me-5 my-3">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <figure class="text-start">
+                                    <blockquote class="blockquote">
+                                        <p class="">Actually the best online course I have ever learnt,especially the
+                                            professor Jhankar is quiet outstanding.And a field trip in a online course
+                                            sounds rare and good!!Thank You!!</p>
+                                    </blockquote>
+                                    <figcaption class="blockquote-footer">
+                                        Zamerun Hasan <cite title="Source Title">Source Title</cite>
+                                    </figcaption>
+                                    <div class="d-flex align-items-center justify-content-start">
+                                        <img src="./images/student/student-5.png" class="img-fluid mx-2" alt="">
+                                        <h4 class="text-muted">Hamid Khan</h4>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="col-md-6  d-none d-md-block">
+                                <div class="d-flex justify-content-end me-5 my-3">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <figure class="text-start">
+                                    <blockquote class="blockquote">
+                                        <p>Actually the best online course I have ever learnt,especially the professor
+                                            Jhankar is quiet outstanding.And a field trip in a online course sounds rare
+                                            and good!!Thank You!!</p>
+                                    </blockquote>
+                                    <figcaption class="blockquote-footer">
+                                        Himel <cite title="Source Title">Source Title</cite>
+                                    </figcaption>
+                                    <div class="d-flex align-items-center justify-content-start">
+                                        <img src="./images/student/student-6.png" class="img-fluid mx-2" alt="">
+                                        <h4 class="text-muted">Benjir Jahan</h4>
+                                    </div>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item align-items-center">
+                        <div class="row">
+                            <div class="col-md-6 d-none d-md-block">
+                                <div class="d-flex justify-content-end me-5 my-3">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <figure class="text-start">
+                                    <blockquote class="blockquote">
+                                        <p class="">Actually the best online course I have ever learnt,especially the
+                                            professor Jhankar is quiet outstanding.And a field trip in a online course
+                                            sounds rare and good!!</p>
+                                    </blockquote>
+                                    <figcaption class="blockquote-footer">
+                                        Zamerun Hasan<cite title="Source Title">Source Title</cite>
+                                    </figcaption>
+                                    <div class="d-flex align-items-center justify-content-start">
+                                        <img src="./images/student/student-5.png" class="img-fluid mx-2" alt="">
+                                        <h4 class="text-muted">Hamid Khan</h4>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex justify-content-end me-5 my-3">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <figure class="text-start">
+                                    <blockquote class="blockquote">
+                                        <p>Actually the best online course I have ever learnt,especially the professor
+                                            Jhankar is quiet outstanding.And a field trip in a online course sounds rare
+                                            and good!! </p>
+                                    </blockquote>
+                                    <figcaption class="blockquote-footer">
+                                        Himel <cite title="Source Title">Source Title</cite>
+                                    </figcaption>
+                                    <div class="d-flex align-items-center justify-content-start">
+                                        <img src="./images/student/student-6.png" class="img-fluid mx-2" alt="">
+                                        <h4 class="text-muted">Benjir Jahan</h4>
+                                    </div>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon  bg-dark" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- Students Feedback End -->
+
+    <!-- Questions & Ans -->
+    <section class="container my-5">
+        <h1 class="text-primary text-center fw-bold fs-2 my-3">Frequently Asked Questions</h1>
+        <p class="text-dark text-center mb-3">Any common question you want to know.
+        </p>
+
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne">
+                        Difference between HTML and HTML5?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                    aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                        <p>A hypertext markup language (HTML) is the primary language for developing web pages.A
+                            hypertext markup language (HTML) is the primary language for developing web pages.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo">
+                        Web-Developer
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                        <p>A web developer is a programmer who develops World Wide Web applications using a
+                            client-server model. The applications typically use HTML, CSS and JavaScript in the client,
+                            PHP, ASP.NET (C#), Python, Node.js, Go or Java in the server.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseThree">
+                        What is inline-block in css?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                        <p>
+                            Inline-block allows to set a width and height on the element. Also, with display: inline,
+                            top and bottom margins & paddings are not respected, and with display: inline-block they
+                            are.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseFour">
+                        What is flexbox in css?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingFour">
+                    <div class="accordion-body">
+                        <p>
+                            The Flexible Box Module, usually referred to as flexbox, was designed as a one-dimensional
+                            layout model, and as a method that could offer space distribution between items in an
+                            interface.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- Trusted Companies -->
+    <section class="container d-lg-block d-none">
+        <h1 class="text-primary text-center fw-bold fs-2 my-4">Trusted by over 800+ companies</h1>
+        <div class="row g-2 align-items-center my-4">
+            <div class="col-2">
+                <img src="./images/company/company-1.png" class="img-fluid d-block m-auto" alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/company/company-2.png" class="img-fluid d-block m-auto" alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/company/company-3.png" class="img-fluid d-block m-auto" alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/company/company-4.png" class="img-fluid d-block m-auto" alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/company/company-5.png" class="img-fluid d-block m-auto" alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/company/company-6.png" class="img-fluid d-block m-auto" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Trusted Companies End -->
+
+    <!-- Footer -->
+    <footer class="container-fluid footer-bg mt-5">
+        <div class="container py-5 mt-3">
+            <h1 class="text-light text-center fw-bold fs-2 my-4">Learn With Himel</h1>
+            <p class="text-muted mt-2 text-center">Zamerun Hasan || Junior Web Developer</p>
+            <p class="text-muted mt-2 text-center">Mazar Road, Mirpur-1, Dhaka,Bangladesh</p>
+            <p class="text-muted mt-2 text-center">Privacy Ploicy | Terms of use</p>
+            <hr>
+            <div class="d-flex justify-content-center">
+                <a href="https://www.facebook.com/"><i
+                        class="fa-brands fa-facebook-f text-light p-3 border-3 bg-dark rounded-4 m-1"></i></a>
+                <a href="https://www.google.com/"><i
+                        class="fa-brands fa-google text-light p-3 border-3 bg-dark rounded-4 m-1"></i></a>
+                <a href="https://www.youtube.com/"><i
+                        class="fa-brands fa-youtube text-light p-3 border-3 bg-dark rounded-4 m-1"></i></a>
+                <a href="https://www.instagram.com/"><i
+                        class="fa-brands fa-instagram text-light p-3 border-3 bg-dark rounded-4 m-1"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End-->
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
